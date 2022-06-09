@@ -15,4 +15,4 @@ Real-world scenario applications for this script include pre-processing of high 
 The measurements of the image properties are accessible in several ways: using jupyter notebook built-in to printing the outputs and plotting individual histograms; exporting spreadsheet format that can be opened in Microsoft Excel, database like SQL and MySQL or other programming languages (MATLAB, Python). 
 
 The script is flexible to work with many images format types (tif, jpg, png, etc) and can be customized by the user. 
-The script was written with python and tested with socket pins captured and collected in manufacturing using optical system
+It was written with python and tested with socket pins captured and collected in manufacturing using optical system
