@@ -1,18 +1,19 @@
 # ImagePreprocessing
-Return high throughput for image properties, resize, and histogram visualizations 
 
-Developed automated image preprocessing for large-scale image operations such as, images property description, image resize and histogram visualizations.
+I developed automated image pre-processing for large-scale image operations such as image property description, image resizes, and histogram visualizations. In general, the script returns high throughput for image properties, resize, and histogram visualizations. 
+
 The script calculates:
-1.	Properties (counts, data type, pixel number, image size, channels) of all images in directory. 
+1.	Properties (counts, data type, pixel number, image size, channels) of all images in the directory. 
 2.	Execution time 
 3.	Resize all raw images to the same custom size
-4.	Return histograms of individual raw and resized images, with intensity of pixels in the y-axis 
-5.	Save image properties in csv format 
+4.	Return histograms of individual raw and resized images, with the intensity in pixels on the y-axis 
+5.	Save image properties in CSV format 
 6.	Save histogram plots of raw and resized images
 
-Real-world scenario applications for this script include pre-processing of high throughput image analysis, large-scale screens for assays, and machine learning models.  The histograms are useful to visualize intensity distributions and provide image features.
+Real-world applications of this script are pre-processing high-throughput images, large-scale screens for assays, and machine learning.  
+The histograms visualize intensity distributions and provide image features.
 
-The measurements of the image properties are accessible in several ways: using jupyter notebook built-in to printing the outputs and plotting individual histograms; exporting spreadsheet format that can be opened in Microsoft Excel, database like SQL and MySQL or other programming languages (MATLAB, Python). 
+The measurements of the image properties are accessible in several ways: using a Jupyter notebook built-in to print the outputs and plot individual histograms; exporting spreadsheet format that is open in Microsoft Excel, a database like SQL and MySQL, or other programming languages (MATLAB, Python). 
 
-The script is flexible to work with many images format types (tif, jpg, png, etc) and can be customized by the user. 
-It was written with python and tested with socket pins captured and collected in manufacturing using optical system
+The script is flexible to work with many image format types (gif, jpg, png) and customized by the user. 
+It was written with python and tested with socket pins captured and collected in manufacturing using an optical system.
