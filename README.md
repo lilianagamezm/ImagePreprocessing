@@ -1,5 +1,6 @@
 # ImagePreprocessing
-Return high throughput for image properties, resize, histogram visualizations 
+Return high throughput for image properties, resize, and histogram visualizations 
+
 Developed automated image preprocessing for large-scale image operations such as, images property description, image resize and histogram visualizations.
 The script calculates:
 1.	Properties (counts, data type, pixel number, image size, channels) of all images in directory. 
