@@ -15,5 +15,5 @@ The histograms visualize intensity distributions and provide image features.
 
 The measurements of the image properties are accessible in several ways: using a Jupyter notebook built-in to print the outputs and plot individual histograms; exporting spreadsheet format that is open in Microsoft Excel, SQL and MySQL databases or other programming languages (MATLAB, Python). 
 
-The script is flexible to work with many image format types (gif, jpg, png) and customized by the user. 
+The script is flexible to work with many image format types (tif, jpg, png) and customized by the user. 
 It was written with python and tested with socket pins captured and collected in manufacturing using an optical system.
